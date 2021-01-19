@@ -1,0 +1,13 @@
+arch: ppc64le
+
+dist:
+  - xenial
+  - bionic
+  - focal
+  
+services:
+  - docker
+  
+script:
+  - ls -l /etc/docker
+  - ls -l /etc/docker/*
