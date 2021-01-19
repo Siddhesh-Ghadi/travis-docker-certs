@@ -9,5 +9,6 @@ services:
   - docker
   
 script:
+  - arch
   - ls -l /etc/docker
   - ls -l /etc/docker/*
