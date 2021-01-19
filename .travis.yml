@@ -1,9 +1,10 @@
 arch: 
-  - amd64
   - ppc64le
 
 dist:
   - xenial
+  - bionic
+  - focal
   
 services:
   - docker
